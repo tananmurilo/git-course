@@ -38,5 +38,11 @@ git reset --soft (reseta o commit, mas o arquivo já vai está pronto para dar c
 git reset --mixed (matar o commit e volta o arquivo para modified)
 git reset --hard (reseta o commit e ignora tudo que foi feito no arquivo)
 
+#ligar repositorio maste com o github
+git remote add Exemplos git@github.com:tananmurilo/Exemplos/git-course.git
+git push -u origin master
+git remote (mostrar o nome do repositorio remoto)
+git remote - v (lista)
+
 
  
