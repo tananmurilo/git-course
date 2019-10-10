@@ -16,3 +16,12 @@ git config --list
 git status
 git add nome_do_arquivo  (adicionar/atualizar um arquivo no repositorio)
 git commit -m "Add nome_do_arquivo"  (fazer um commit, é preciso adicionar o arquivo(add) para da o commit)
+
+#log de modificações
+git log
+git log --decorate (mostras mais opções)
+git log --author="Murilo"
+git shortlog  (mostras em ordem os autores e as contribuições)
+git shortlog -sn (quantidades de comites por pessoa)
+git log --graph (mostra de forma gráfica os branch e versões)
+git show hash_da_vesão (mostra o que aconteceu)
