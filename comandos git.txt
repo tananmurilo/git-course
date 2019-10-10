@@ -39,6 +39,4 @@ git reset --mixed (matar o commit e volta o arquivo para modified)
 git reset --hard (reseta o commit e ignora tudo que foi feito no arquivo)
 
 
-asdasdas
-erstes
  
