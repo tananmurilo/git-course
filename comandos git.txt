@@ -44,5 +44,11 @@ git push -u origin master
 git remote (mostrar o nome do repositorio remoto)
 git remote - v (lista)
 
+#enviar modificações para o repositorio remoto
+git push origin master
+
+#clonar repositorio
+g clone git@github.com:tananmurilo/git-course.git git-couse-clone (usando a ssh
+
 
  
