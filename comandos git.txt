@@ -25,3 +25,8 @@ git shortlog  (mostras em ordem os autores e as contribuições)
 git shortlog -sn (quantidades de comites por pessoa)
 git log --graph (mostra de forma gráfica os branch e versões)
 git show hash_da_vesão (mostra o que aconteceu)
+
+
+#ver diferenças
+git diff
+git diff --name-only (somente o nome do arquivo modificado)
