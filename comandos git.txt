@@ -1,0 +1,17 @@
+#comandos git
+
+#configurar usuario na maquina(config global).
+git config --global user.name "Murilo Tanan"
+git config --global user.email "tananmurilo@gmail.com"
+
+#config editor
+git config --global core.editor subl
+
+#ver configurações
+git config user.name
+git config user.email
+git config --list
+
+#repositorio
+git status
+git add nome_do_arquivo
