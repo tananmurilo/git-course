@@ -34,3 +34,7 @@ git diff --name-only (somente o nome do arquivo modificado)
 #reverter versão
 git checkout "comandos git.txt"
 git reset HEAD nome_arquivo  (retirar o arquivo do unstate, retira do add)
+git reset --soft (reseta o commit, mas o arquivo já vai está pronto para dar commint novamente)
+git reset --mixed (matar o commit e volta o arquivo para modified)
+git reset --hard (reseta o commit e ignora tudo que foi feito no arquivo)
+ 
