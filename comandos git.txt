@@ -30,3 +30,7 @@ git show hash_da_vesão (mostra o que aconteceu)
 #ver diferenças
 git diff
 git diff --name-only (somente o nome do arquivo modificado)
+
+#reverter versão
+git checkout "comandos git.txt"
+git reset HEAD nome_arquivo  (retirar o arquivo do unstate, retira do add)
