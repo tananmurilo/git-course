@@ -48,7 +48,34 @@ git remote - v (lista)
 git push origin master
 
 #clonar repositorio
-g clone git@github.com:tananmurilo/git-course.git git-couse-clone (usando a ssh
+g clone git@github.com:tananmurilo/git-course.git git-couse-clone (usando a ssh)
 
+#criando um branch
+git checkout -b nome_do_branch
+git branch (ver os branch)
+git checkout nome_do_branch (mover/trocar para o branch)
+git branch -D nome_do_branch (deletar o branch)
 
- 
+#merge e rebase
+git merge nome_da_branch
+git rebase nome_da_branch
+
+#git ignore
+cria um arquivo .gitignore
+dentro vc coloca o nome do arquivo ou padrão que deseja não entrar no tracker.
+
+#alias (fazer "atralhos")
+git config --global alias.nome comando_desejado
+
+#tags (release no repositorio)
+git tag (ver as tag geradas)
+git tag -a 1.0.0 -m "mensagem"
+git push origin master --tags  (subir tags para repositorio)
+
+#revert
+git revert hash_do_commit  (revert as mudanças, mas não perde do historico as mudanças feitas)
+
+#deletar tags do repositorios 
+git tag -d 1.0 (local)
+git push origin :1.0 (repositorio)
+git push origin :teste (apagar branch
